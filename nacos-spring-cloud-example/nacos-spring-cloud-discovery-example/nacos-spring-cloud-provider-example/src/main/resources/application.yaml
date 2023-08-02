@@ -5,9 +5,9 @@ spring:
     name: service-provider
   cloud:
     nacos:
-	  discovery:
-	    server-addr: nacos-qv2kue.nacos.cse.com
-      namespace: demo
-	  config:
-	    server-addr: nacos-qv2kue.nacos.cse.com
-      namespace: demo
+      discovery:
+        server-addr: nacos-qv2kue.nacos.cse.com
+        namespace: demo
+      config:
+        server-addr: nacos-qv2kue.nacos.cse.com
+        namespace: demo
